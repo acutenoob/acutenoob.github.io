@@ -102,3 +102,10 @@ theme: next
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+
+theme_config:
+  sidebar:
+    position: right
+  math:
+    katex:
+      enable: true
