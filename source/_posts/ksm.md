@@ -1,0 +1,17 @@
+---
+title: 快速幂
+date: 2026-03-04 17:37:46
+tags: 模板
+---
+
+# 快速幂
+```cpp
+int ksm(int a,int b)
+{
+    int res = 1;
+    for(;b;b >>= 1,a = 1ll * a * a % p)
+        if(b & 1)
+            res = 1ll * res * a % p;
+    return res;
+}
+```
