@@ -4,7 +4,8 @@ date: 2026-03-04 17:37:46
 tags: 模板
 ---
 
-# 快速幂
+# 实现
+
 ```cpp
 int ksm(int a,int b)
 {

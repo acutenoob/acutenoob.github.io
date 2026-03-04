@@ -4,6 +4,8 @@ date: 2026-03-04 17:43:43
 tags: 模板
 ---
 
+# 实现
+
 ```cpp
 int ksm(int a,int b)
 {
@@ -28,14 +30,14 @@ int c(int a,int b)
     res = 1ll * res * inv[b - a] % p;
     return res;
 }
-```    
+```
 
-$ C^a_b $ = `fac[b] * inv[a] * inv[b - a]`
+$C^a_b$ = `fac[b] * inv[a] * inv[b - a]`
 
 # 原理
 
 根据
 
-$$ a ^ { \varphi (n)} \equiv 1~(mod~n) $$
+$$a ^ { \varphi (n)} \equiv 1~(mod~n)$$
 
-其中 $ \varphi (n) $ 为欧拉函数 当 n 为质数时候 存在 $ a ^ { \varphi (n - 1)} \equiv 1~(mod~n) $
+其中 $\varphi (n)$ 为欧拉函数 当 n 为质数时候 存在 $a ^ { \varphi (n - 1)} \equiv 1~(mod~n)$
