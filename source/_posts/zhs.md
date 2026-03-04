@@ -30,12 +30,12 @@ int c(int a,int b)
 }
 ```    
 
-$C^a_b$ = `fac[b] * inv[a] * inv[b - a]`
+$ C^a_b $ = `fac[b] * inv[a] * inv[b - a]`
 
 # 原理
 
 根据
 
-$$a ^ { \varphi (n)} \equiv 1~(mod~n)$$
+$$ a ^ { \varphi (n)} \equiv 1~(mod~n) $$
 
-其中 $\varphi (n)$ 为欧拉函数 当 n 为质数时候 存在 $a ^ { \varphi (n - 1)} \equiv 1~(mod~n)$
+其中 $ \varphi (n) $ 为欧拉函数 当 n 为质数时候 存在 $ a ^ { \varphi (n - 1)} \equiv 1~(mod~n) $
