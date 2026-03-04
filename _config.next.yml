@@ -124,7 +124,7 @@ menu_settings:
 
 sidebar:
   # Sidebar position. Available values: left | right
-  position: left
+  position: right
 
   # Sidebar width.
   # Applicable to Muse | Mist and mobile of Pisces | Gemini.
@@ -574,12 +574,12 @@ math:
   mathjax:
     enable: false
     # Available values: none | ams | all
-    tags: none
+    tags: ams
 
   katex:
     enable: true
     # See: https://github.com/KaTeX/KaTeX/tree/master/contrib/copy-tex
-    copy_tex: false
+    copy_tex: true
 
 
 # ---------------------------------------------------------------
